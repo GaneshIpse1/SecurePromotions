@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardMarkup, InlineKeyboardButton
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackContext
 
 TOKEN = "7701313809:AAFA-cotOTczC0KcYDdlRj7fQuYWxDRSZpA"
-WEB_SERVER_URL = "https://yourserver.com"
+WEB_SERVER_URL = "https://securepromotions.onrender.com"
 
 logging.basicConfig(level=logging.INFO)
 
