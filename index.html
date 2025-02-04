@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Mini App</title>
+</head>
+<body>
+    <script>
+        // Redirect user inside Telegram WebView
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            const url = params.get("url");
+            if (url) {
+                window.location.href = url;
+            }
+        };
+    </script>
+</body>
+</html>
